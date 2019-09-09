@@ -19,13 +19,21 @@
 		background-color:#cecece;
 		width: 100%;
 	}
-	
+	/* Каждый второй */
 	.testing div:nth-child(2n)
 	{
 		background-color:yellow;
 		font-size:10 px;
 		color:#669900;
 	}
+	/* Первый-последний */
+	.testing div:last-child, .testing div:first-child 
+	{
+		background-color:blue;
+		font-size:10 px;
+		color:#669900;
+	}
+
 </style>
 
 </body>
