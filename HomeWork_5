@@ -33,6 +33,7 @@
 		width: 45%; /* 50% */
 		height: 50px;
 		margin-top: 50px;
+		
 	}
 
 	button:hover
@@ -40,8 +41,10 @@
 		color:#cecece;
 		cursor: pointer;
 	}
+	button:focus {
+		outline: none !important
+	}
 </style>
 
 </body>
 </html>
-
